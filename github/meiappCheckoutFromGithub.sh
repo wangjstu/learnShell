@@ -28,7 +28,7 @@ function Git_Push() {
 		ERROR "Usage: sh meiappCheckoutFromGithub.sh Git_Push commit_comments!"
 		exit 1;
 	else
-		RUNCMD "git pull origin/master master && git add --all && git commit -m \"$2\" && git push origin master"
+		RUNCMD "git pull origin master && git add --all && git commit -m \"$2\" && git push origin master"
 	fi	
 }
 
