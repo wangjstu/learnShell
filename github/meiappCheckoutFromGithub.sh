@@ -24,7 +24,6 @@ function Git_Pull() {
 }
 
 function Git_Push() {
-	echo $#
 	if [ $# -ne 2 ]; then
 		ERROR "Usage: sh meiappCheckoutFromGithub.sh Git_Push commit_comments!"
 		exit 1;
